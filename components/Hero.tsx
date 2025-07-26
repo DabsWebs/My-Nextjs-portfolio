@@ -1,6 +1,7 @@
 import { Spotlight } from './ui/Spotlight';
 import { cn } from '@/lib/utils'; // or relative like './utils'
 
+
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
@@ -16,7 +17,7 @@ const Hero = () => {
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
      
-<div className=" relative flex h-screen w-full items-center justify-center bg-white dark:bg-black-100 dark:bg-grid-white/[0.3] bg-grid-black/[0.2] ">
+<div className="flex h-screen w-full items-center justify-center bg-white dark:bg-black-100 dark:bg-grid-white/[0.03] bg-grid-black/[0.2] absolute top-0 left-0 ">
       <div
         className={cn(
           "absolute inset-0",
@@ -30,9 +31,11 @@ const Hero = () => {
       
     </div>
 
-      <div className='flex justify-center'>
-        <div className='max-w-[89vw]' >
-<h2> Dynamic Web with Next.js </h2>
+      <div className='flex justify-center relative my-20 z-10 '>
+        <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center ' >
+<h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80' > Dynamic Web with Next.js </h2>
+
+
         </div>
       </div>
     </div>
