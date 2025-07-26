@@ -30,8 +30,10 @@ const Hero = () => {
       
     </div>
 
-      <div>
-        
+      <div className='flex justify-center'>
+        <div className='max-w-[89vw]' >
+<h2> Dynamic Web with Next.js </h2>
+        </div>
       </div>
     </div>
   );
