@@ -11,12 +11,13 @@
   "dependencies": {
     "@motionone/react": "^10.16.4",
     "clsx": "^2.1.1",
-    "framer-motion": "^12.0.0-alpha.1",
+    "framer-motion": "^12.23.9",
     "mini-svg-data-uri": "^1.4.4",
-    "next": "15.0.3",
+    "next": "^15.4.4",
     "next-themes": "^0.4.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7"
   },
