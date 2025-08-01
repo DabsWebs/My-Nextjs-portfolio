@@ -45,7 +45,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl ">
-            Hi, i&apos;m Daberech, a Next.js Developer based in Nigeria
+            Hi, i&apos;m Nwosu Daberechi, a Next.js Developer based in Nigeria
           </p>
 
           <a href="#about">
